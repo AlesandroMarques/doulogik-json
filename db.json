@@ -1,4 +1,4 @@
-[{ "page":"iti",
+{ "page":"iti",
     "nameUp": "IT INFRUSTRCTURE",
   "name":" IT Infrustructure",
   "href": "#iti",
@@ -13,6 +13,6 @@
          { "nameUp":"NETWORKING" , "name":"Networking", "href":"#iti/1.6", "page":"networking","info": "With the explosion of employees bringing their own devices to the office, you can see the benefits of implementing wireless and wired networks into your organization. To maintain productivity, it is important for employees to have access to the corporate network by giving them wireless access from their own devices."},
          { "nameUp":"INFRASTRUCTURE AS A SERVICE" ,"name":"Infrustructure as a Service", "href":"#iti/1.7", "page":"iaas","info": "Duologik’s competitive, on-demand Infrastructure as a Service (IaaS) with instant provision of services essentially simplifies data center complexity and improve customers’ ability to deliver their unpredictable computing requirement in a rapid and cost-effective manner."}
         ]
-        }]
+        }
 
 
