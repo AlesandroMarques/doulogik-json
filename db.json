@@ -1,78 +1,19 @@
-[{ page:"iti",
-    nameUp: 'IT INFRUSTRCTURE',
-  name:' IT Infrustructure',
-  href: '#iti',
-  des:"GIVE YOUR DATACENTRE EXPERT ATTENTION",
-  img:iti_image,
-      dropDownItems:[
-         { nameUp:"VIRTUALIZATION & STORAGE", name:"Virtualization & Storage", href:"#iti/1.1" , page:"virtual_storage",info: SERVICE_INFO.get("virtual_storage")},
-        /* {id:'ahdsd', nameUp:"HP STORAGE | 3PAR" ,name: "HP Storage | 3PAR", href:"#iti/1.2", page:"hp_storage",info: SERVICE_INFO.get("hp_storage")},*/
-        { nameUp:"NIMBLE STORAGE" ,name: "Nimble Storage", href:"#iti/1.2", page:"nimble",info: SERVICE_INFO.get("nimble")},
-         { nameUp:"ALL FLASH ARRAY" , name:"All Flash Array", href:"#iti/1.3", page:"all_flash_array",info: SERVICE_INFO.get("all_flash_array")},
-        { nameUp:"CONVERGED INFRASTRUCTURE" ,name:"Converged Infrustructure", href:"#iti/1.4", page:"converged_infrastructure",info: SERVICE_INFO.get("converged_infrastructure")},
-         { nameUp:"PRODUCT FULFILLMENT", name:"Product Fulfillment", href:"#iti/1.5", page:"product_fulfillment",info: SERVICE_INFO.get("product_fulfillment")},
-         { nameUp:"NETWORKING" , name:"Networking", href:"#iti/1.6", page:"networking",info: SERVICE_INFO.get("networking")},
-         { nameUp:"INFRASTRUCTURE AS A SERVICE" ,name:"Infrustructure as a Service", href:"#iti/1.7", page:"iaas",info: SERVICE_INFO.get("iaas")}
+[{ 'page':"iti",
+    'nameUp': 'IT INFRUSTRCTURE',
+  'name':' IT Infrustructure',
+  'href': '#iti',
+  'des':"GIVE YOUR DATACENTRE EXPERT ATTENTION",
+  'img':'../../assets/Solutions/it_inf2.jpg',
+      'dropDownItems':[
+         { 'nameUp':"VIRTUALIZATION & STORAGE", 'name':"Virtualization & Storage",'href':"#iti/1.1" , 'page':"virtual_storage",'info': "Duologik offers server virtualization and shared storage solutions that put your organization in an ideal position for future growth. Server virtualization prevents server sprawl, leading to poor hardware resource utilization, possible breach in software security and high electricity and cooling costs.  Stop technology wastage, increase your availability and manage your cost."},
+        { 'nameUp':"NIMBLE STORAGE" ,'name': "Nimble Storage", 'href':"#iti/1.2", 'page':"nimble",'info': "HPE Nimble Storage has set the bar for disrupting, simplifying, and modernizing storage to help customers accelerate their digital transformation. Today the innovation continues. Nimble Storage customers now have an enhanced platform that turbocharges apps, eliminates disruptions, and drives more IT agility."},
+         { 'nameUp':"ALL FLASH ARRAY" , 'name':"All Flash Array", 'href':"#iti/1.3", 'page':"all_flash_array",'info': "As the world steams along its path toward a digital economy and businesses transition from datadependent to data-driven, the demands placed on storage performance continue to escalate. With performance increasing at less than one-third the rate of capacity, disk technology, the foundation of non-human memory and the workhorse of the datacentre, seems to be headed out to a much-deserved pasture."},
+        { 'nameUp':"CONVERGED INFRASTRUCTURE" ,'name':"Converged Infrustructure", 'href':"#iti/1.4", 'page':"converged_infrastructure",'info': "You want to deploy applications faster. You want to deliver IT capacity to your business and services to your customers more quickly and easily. And you want a shorter time-to-value for IT investments. Virtualization is a well-understood technology that can help you increase agility, reduce costs, and simplify IT management. But virtualization is not ”just another technology.”"},
+         { 'nameUp':"PRODUCT FULFILLMENT", 'name':"Product Fulfillment", 'href':"#iti/1.5", 'page':"product_fulfillment",'info': "Duologik’s IT procurement services enable customers to source, warehouse, configure, test and ship hardware and software nationally.  We work with your budget to meet the specification, brand quality and delivery schedules for successful project deployments.  Our team negotiates directly with vendors for the best possible prices"},
+         { 'nameUp':"NETWORKING" , 'name':"Networking", 'href':"#iti/1.6", 'page':"networking",'info': "With the explosion of employees bringing their own devices to the office, you can see the benefits of implementing wireless and wired networks into your organization. To maintain productivity, it is important for employees to have access to the corporate network by giving them wireless access from their own devices."},
+         { 'nameUp':"INFRASTRUCTURE AS A SERVICE" ,'name':"Infrustructure as a Service", 'href':"#iti/1.7", 'page':"iaas",'info': "Duologik’s competitive, on-demand Infrastructure as a Service (IaaS) with instant provision of services essentially simplifies data center complexity and improve customers’ ability to deliver their unpredictable computing requirement in a rapid and cost-effective manner."}
         ]
-        },
-
-        {page:"cloud",
-          nameUp: 'CLOUD',
-        name:'Cloud',
-        href: '#cloud',
-        des:"INFRASTRUCTURE FOR GROWTH AND FLEXIBILITY",
-        img:cloud_image,
-            dropDownItems:[
-               { nameUp:"PRIVATE CLOUD" ,name:"Private Cloud", href:"#cloud/1.1", page:"private_cloud",info: SERVICE_INFO.get("private_cloud")},
-               { nameUp:"CLOUD BACKUP" , name:"Cloud Backup", href:"#cloud/1.2", page:"cloud_backup",info: SERVICE_INFO.get("cloud_backup")},
-               { nameUp:"SOFTWARE AS A SERVICE" ,name:"Software as a Service", href:"#cloud/1.3", page:"saas",info: SERVICE_INFO.get("saas")},
-               { nameUp:"INFRASTRUCTURE AS A SERVICE" ,name:"Infrustructure as a Service", href:"#iti/1.7", page:"iaas",info: SERVICE_INFO.get("iaas")}
-            ]},
-
-        {page:"its",
-          nameUp: 'IT SERVICES',
-        name:'IT Services',
-        href: '#its',
-        des:"SOLVING COMPLEX BUSINESS PROBLEMS WITH IT SOLUTIONS",
-        img:its_image,
-              dropDownItems:[
-                   { nameUp:"PROFESSIONAL SERVICES" , name:"Professional Services", href:"#its/1.1", page:"professional_services",info: SERVICE_INFO.get("professional_services")},
-                   { nameUp:"DATA MANAGMENT" , name:"Data Managment", href:"#its/1.2", page:"data_managment",info: SERVICE_INFO.get("data_managment")},
-                   { nameUp:"TROUBLESHOOTING" , name:"Troubleshooting", href:"#its/1.3", page:"troubleshooting",info: SERVICE_INFO.get("troubleshooting")}
-                ]},
-
-          {page:"ms",
-            nameUp: 'MANAGED SERVICES',
-          name:'Managed Services',
-            href: '#ms',
-            des:"BRING YOUR BACKUP AND RECOVERY PLANS UP TO SPEED",
-            img:ms_image,
-               dropDownItems:[
-                       { nameUp:"DESKTOP & SERVER" , name:"Desktop & Server", href:"#ms/1.1", page:"desktop_server",info: SERVICE_INFO.get("desktop_server")},
-                       { nameUp:"REMOTE SUPPORT" , name:"Remote Support",href:"#ms/1.2", page:"remote_support",info: SERVICE_INFO.get("remote_support")},
-                       { nameUp:"ADVANCED MONITORING" , name:"Advanced Monitoring", href:"#ms/1.3", page:"advanced_monitoring",info: SERVICE_INFO.get("advanced_monitoring")},
-                       { nameUp:"ON-SITE SUPPORT" , name:"On-Site Support",href:"#ms/1.4", page:"onsite_monitoring",info: SERVICE_INFO.get("onsite_monitoring")},
-                       { nameUp:"PROTECT" , name:"Protect", href:"#ms/1.5", page:"protect",info: SERVICE_INFO.get("protect")}
-                    ]}  
-                    ,
-
-          {page:"disasterrecovery",
-            nameUp: 'DISASTER RECOVERY',
-          name:'Disaster Recovery',
-          href: '#disasterrecovery',
-          des:"PROACTIVE PROTECTION FOR YOUR ENTIRE ORGANIZATION",
-          img:dr_image,
-              dropDownItems:[
-                { nameUp:"DISASTER RECOVERY" , name:"Disaster Recovery", href:"#dr/1.1" , page:"dr", info: SERVICE_INFO.get("dr")},
-                { nameUp:"DR PLANNING" ,name:"DR Planning", href:"#dr/1.2",page:"dr_planning", info: SERVICE_INFO.get("dr_planning")},
-                { nameUp:"DISASTER RECOVERY AS A SERVICE" , name:"Disaster Recovery as a Service", href:"#dr/1.3",page:"draas",info: SERVICE_INFO.get("draas")},
-                { nameUp:"CLOUD BACKUP", name:"Cloud Backup", href:"#cloud/1.2",page:"cloud_backup",info: SERVICE_INFO.get("cloud_backup")},
-                { nameUp:"MANAGED BACK-UP SERVICES" , name:"Managed Back-up Services", href:"#dr/1.4", page:"managed_backup",info: SERVICE_INFO.get("managed_backup")},
-                { nameUp:"ARCSERVE PRODUCTS & SERVICES" ,name:"Arcserve Products & Services", href:"#dr/1.5",page:"arcserve",info: SERVICE_INFO.get("arcserve")}
-                              ]}  
-                              
-   ]
-
+        }]
 
 
 
