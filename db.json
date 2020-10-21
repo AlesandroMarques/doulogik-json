@@ -73,7 +73,7 @@
 			   "info": "Duologik’s competitive, on-demand Infrastructure as a Service (IaaS) with instant provision of services essentially simplifies data center complexity and improve customers’ ability to deliver their unpredictable computing requirement in a rapid and cost-effective manner."}
             ]}
 
-	 ,
+	,
 
         {"page":"its",
           "nameUp": "IT SERVICES",
@@ -84,7 +84,7 @@
               "dropDownItems":[
                    { "nameUp":"PROFESSIONAL SERVICES" ,
 				   "name":"Professional Services",
-				   "href":"#its/1.1,
+				   "href":"#its/1.1",
 				   "page":"professional_services",
 				   "info": "Duologik Infrastructure Consulting Services takes a holistic, adaptive approach that simplifies the IT modernization process. Equally important, we help prepare your people, processes and organization for change. You get more agility, lower costs and greater flexibility to better pursue your business goals. "},
                    { "nameUp":"DATA MANAGMENT" ,
@@ -97,6 +97,6 @@
 				   "href":"#its/1.3",
 				   "page":"troubleshooting",
 				   "info": "We solve common problems, errors and have a framework to systemically drill down in intense deliberation for complex uncertainties. Sources of intractable problems can be uncovered and fixed in our ISO lab testing environment."}
-                ]}
+                ]}		
 		
 		]}
