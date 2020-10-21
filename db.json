@@ -97,6 +97,42 @@
 				   "href":"#its/1.3",
 				   "page":"troubleshooting",
 				   "info": "We solve common problems, errors and have a framework to systemically drill down in intense deliberation for complex uncertainties. Sources of intractable problems can be uncovered and fixed in our ISO lab testing environment."}
-                ]}		
+                ]}	
+,
+
+          {"page":"ms",
+            "nameUp": "MANAGED SERVICES",
+          "name":"Managed Services",
+            "href": "#ms",
+            "des":"BRING YOUR BACKUP AND RECOVERY PLANS UP TO SPEED",
+            "img":"ms_image",
+               "dropDownItems":[
+                       { "nameUp":"DESKTOP & SERVER" ,
+					   "name":"Desktop & Server",
+					   "href":"#ms/1.1",
+					   "page":"desktop_server",
+					   "info": "Duologik provides desktop and server and management services to support your end users with their PC and local devices needs, i.e. smartphones, tablets, scanners, and printers. We work with you to understand and choose the best service option that suits your business needs"},
+                       { "nameUp":"REMOTE SUPPORT" ,
+					   "name":"Remote Support",
+					   "href":"#ms/1.2",
+					   "page":"remote_support",
+					   "info": "Our remote support objective is to resolve incidents quickly with the use of sophisticated industry standard tools and process. Services around the clock ranges from level 1: basic help desk to level 3: advanced support engineers who can help with pressing issues, including problem diagnosis and remediation."},
+                       { "nameUp":"ADVANCED MONITORING" ,
+					   "name":"Advanced Monitoring",
+					   "href":"#ms/1.3",
+					   "page":"advanced_monitoring",
+					   "info": "Duologik Advanced Monitoring service tracks the leading indicators in your infrastructure such as: device CPU utilization, capacity and memory utilization, including device and server availability. You can rest assured if an issue arises, you will get the notifications you need to effectively maintain your IT performance."},
+                       { "nameUp":"ON-SITE SUPPORT" ,
+					   "name":"On-Site Support",
+					   "href":"#ms/1.4", 
+					   "page":"onsite_monitoring",
+					   "info": "Duologik has the required knowledge and expertise to work with you on supporting your infrastructure and specific business applications.  You will be assigned an experienced engineer, committed to managing and maintaining your competitive, modern IT environment. Regular scheduled visits will be tailored to your specific needs and budget."},
+                       { "nameUp":"PROTECT" ,
+					   "name":"Protect",
+					   "href":"#ms/1.5",
+					   "page":"protect",
+					   "info": "Network security is a top priority for any organization in today’s uncertain IT environment. Threats to your system and data can severely impede business innovation, limit productivity and damage compliance efforts. Duologik’s network security services provide organizations preemptive threat measures, protect your operating environment, and monitor suspicious activity."}
+                    ]} 	       
+	       
 		
 		]}
