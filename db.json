@@ -42,5 +42,35 @@
 		 "info": "Duologik’s competitive, on-demand Infrastructure as a Service (IaaS) with instant provision of services essentially simplifies data center complexity and improve customers’ ability to deliver their unpredictable computing requirement in a rapid and cost-effective manner."}
         ]
         }
+,
+
+        {"page":"cloud",
+          "nameUp": "CLOUD",
+        "name":"Cloud",
+        "href": "#cloud",
+        "des":"INFRASTRUCTURE FOR GROWTH AND FLEXIBILITY",
+        "img":"cloud_image",
+            "dropDownItems":[
+               { "nameUp":"PRIVATE CLOUD" ,
+			   "name":"Private Cloud",
+			   "href":"#cloud/1.1", 
+			   "page":"private_cloud",
+			   "info": "We incorporate proven elastic cloud infrastructure and our decades of managed operations experience delivering a secure, private, custom solution addressing the most demanding businesses challenges. "},
+               { "nameUp":"CLOUD BACKUP" ,
+			   "name":"Cloud Backup",
+			   "href":"#cloud/1.2",
+			   "page":"cloud_backup",
+			   "info": "Organizations have traditionally implemented proper Disaster Recovery (DR) practice by writing backups to tape and shipping them offsite.  This is a costly and complex system owing to hardware and personnel requirements. Duologik’s Cloud backup system eliminates these requirements ensuring backups are secure and up-to-date."},
+               { "nameUp":"SOFTWARE AS A SERVICE" ,
+			   "name":"Software as a Service",
+			   "href":"#cloud/1.3",
+			   "page":"saas",
+			   "info": "Increasing employee productivity with available technology has never been easier and it can be made possible with low-cost investment, and high flexibility. Explore how Duologik’s Software as a Service (SaaS) unlocks the potential of workers, empowers business managers and enables CEOs to make informed decisions in real time with faster technology deployment"},
+               { "nameUp":"INFRASTRUCTURE AS A SERVICE" ,
+			   "name":"Infrustructure as a Service",
+			   "href":"#iti/1.7",
+			   "page":"iaas",
+			   "info": "Duologik’s competitive, on-demand Infrastructure as a Service (IaaS) with instant provision of services essentially simplifies data center complexity and improve customers’ ability to deliver their unpredictable computing requirement in a rapid and cost-effective manner."}
+            ]}	       
 		
 		]}
